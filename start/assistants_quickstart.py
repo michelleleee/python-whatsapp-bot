@@ -18,7 +18,7 @@ def upload_file(path):
     return file
 
 
-file = upload_file("../data/airbnb-faq.pdf")
+file = upload_file("../data/Strategy.md")
 
 
 # --------------------------------------------------------------

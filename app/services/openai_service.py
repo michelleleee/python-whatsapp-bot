@@ -14,7 +14,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 def upload_file(path):
     # Upload a file with an "assistants" purpose
     file = client.files.create(
-        file=open("../../data/airbnb-faq.pdf", "rb"), purpose="assistants"
+        file=open("../../data/Strategy.md", "rb"), purpose="assistants"
     )
 
 
